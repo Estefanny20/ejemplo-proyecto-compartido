@@ -9,9 +9,41 @@
 </head>
 <body>
 <center> <img class="titulo" src="img\Rick-and-Morty.png" width="400" height="200"> </center> 
+<header class="header">
+    <nav class="nav">
+       <img class="nav-logo" src="img/logo.png"> 
+       <ul>
+        <li class="menu-lista">
+            <a href="#home" class="menu-item">boton1</a>
+        </li>
+        <li class="menu-lista">
+            <a href="#statistics" class="menu-item">boton2</a>
+        </li>
+       </ul>
+    </nav>
+</header>
+<main>
+    <section class="contenedor" id="home">
+        <section class="menuBar">
+            <section class="search">
+                    <input id="buscar" type="text" class="menuBar-buscar" placeholder="search nuscar">
+            </section>
+            <section class="filtros">
+                    <select id="filtro1" class="filtro1">
+                        <option value="Buscar por filtro" disabled selected>Buscar por filtro</option>
+                        <option value="//valor1">//valor1</option>
+                        <option value="//valor2">//valor2</option>
+                        <option value="//valor3">//valor3</option>
+                    </select>
+            </section>
+            <section class="filtros">
 
-<div id="nombrespersonajes"></div>
-
+            </section>
+        </section>
+    </section>
+    <section class="contenedor-disable" id="boton1"></section>
+    <section class="contenedor-disable" id="boton2"></section>
+</main>
 <footer>Desarrollado por Andrea Carrillo, Branceli Ricci, Abigail Solano y Erika Huamani</footer>
 <script src="data.json"></script>
 <script src="script.js"></script>
