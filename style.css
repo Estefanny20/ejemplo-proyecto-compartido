@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+.menuBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+}
 body{
     background: url(img/fondo.webp);
     background-size: cover;
