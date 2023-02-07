@@ -76,18 +76,12 @@ ul {
 .cartaper{
     align-items: stretch;
     width: 250px;
-    border: 1px solid grey;
+    border: 5px solid rgb(8, 8, 8);
     border-radius: 5px;
     margin: 5px;
-   /* border:solid black 10px;
+    border:solid black 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-items: stretch;
-    width:250px;
-    border:1px solid grey;
-    border-radius: 5px;
-    margin: 5px;*/
 }
 .imagenper{
     width:100%;

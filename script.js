@@ -11174,11 +11174,13 @@ for(i=0; i<10 ; i++){
     img.attr("src",RickAndMorty.results[i].image);
     //agrega img y todos sus agregados al div
     div.addClass("imagenper");
-    div.append(img);
+    let enlace=$("<a></a>");
+    enlace.attr("href","indexpersonaje.html");
+    enlace.append(img);
+    div.append(enlace);
   
-    
     let nombre = $("<h3></h3>");
-    div.addClass("nombreper");
+    nombre.addClass("nombreper");
     nombre.append(RickAndMorty.results[i].name);
     div.append(nombre);
     
