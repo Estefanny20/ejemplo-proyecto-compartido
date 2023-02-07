@@ -69,3 +69,31 @@ ul {
     margin: 0;
     text-align: center;
 }
+#contenedorpersonajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.cartaper{
+    align-items: stretch;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+   /* border:solid black 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+    width:250px;
+    border:1px solid grey;
+    border-radius: 5px;
+    margin: 5px;*/
+}
+.imagenper{
+    width:100%;
+}
+.nombreper{
+    align-self: center;
+    margin-left: center;
+    margin-right: center;
+}

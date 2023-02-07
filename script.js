@@ -11166,16 +11166,23 @@ var RickAndMorty = {
 
 function personajes(){
 for(i=0; i<10 ; i++){
-    var div=$("<div></div>");
-    var nombre=RickAndMorty.results[i].name;
-    div.append(nombre);
+    let div = $("<div></div>");
+    div.addClass("cartapersonaje");
+
     let img=$("<img></img>");
     //agrego atributos "src" y le indico que parte de la data tiene la imagen
     img.attr("src",RickAndMorty.results[i].image);
     //agrega img y todos sus agregados al div
+    div.addClass("imagenper");
     div.append(img);
-    $("#contenedorpersonajes").append(div);
+  
     
+    let nombre = $("<h3></h3>");
+    div.addClass("nombreper");
+    nombre.append(RickAndMorty.results[i].name);
+    div.append(nombre);
+    
+    $("#contenedorpersonajes").append(div);
 }
 }
 
