@@ -590,7 +590,7 @@ function personajetarjeta(){
     $("#tarjeta").append(div);
 }
 
-$(document).ready(function(){
+$().ready(function(){
     for (let i=0;i<2; i++) {
         personajetarjeta()
     }

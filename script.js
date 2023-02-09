@@ -11188,7 +11188,16 @@ for(i=0; i<10 ; i++){
 }
 }
 
-$(document).ready(function () {
+$("#Existencia").ready(function () 
+$("#contenedorpersonajes").children().not("#contenedorpersonajes").remove();
+for (let index = 0; index < 10; index) {
+
+    if (($("#Existencia").val()=="general")||($("#Existencia").val()==data.RickAndMorty[index].tipo)) }
+        RickAndMorty (index);
+        
+
+
+{
     // Desplegamos 9 imágenes
     for (let i = 0; i < 9; i++) {
         personajes();
